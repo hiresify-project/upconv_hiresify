@@ -1,0 +1,1 @@
+gcc -O0 -msse2 -march=haswell -fopenmp -o wav2raw.exe wav2raw.c ./../upconv/fileio.c ./../PLG_AUDIO_IO/PLG_AUDIO_IO.c -static -lstdc++ -lgcc -lwinpthread -Wl,--stack,10485760

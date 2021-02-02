@@ -1,0 +1,1 @@
+gcc  -o upconv.exe -O2 -march=haswell -fopenmp -ftree-vectorize  upconv.c fileio.c -lm -lfftw3-3 -static -lstdc++ -lgcc -lwinpthread -Wl,--stack,10485760
